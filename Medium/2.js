@@ -8,7 +8,12 @@
 
 const randomArr = () => {
     /* Тут код*/
+    let arr = [];
+    for ( i = 0; i < 10; i++ ) {
+        arr.push( Math.trunc( Math.random() * 10 ));
 
+    }
+    return arr;
 }
 
 

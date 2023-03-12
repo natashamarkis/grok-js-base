@@ -5,7 +5,7 @@
 
 const toSentence = (arr) => {
     /* Тут код*/
-
+return arr.join(' ');
 }
 
 module.exports = toSentence

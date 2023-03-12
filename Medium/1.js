@@ -6,7 +6,9 @@
 
 const logEachLetter = (str) => {
     /* Тут код*/
-
+    for (let char of str) {
+        console.log(char);
+    }
 }
 
 module.exports = logEachLetter
